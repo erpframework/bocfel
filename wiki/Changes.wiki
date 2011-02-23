@@ -1,6 +1,11 @@
 #summary Summary of changes to Bocfel.
 #labels Featured
 
+==February 22, 2011==
+===Bocfel 0.5.2===
+  * Fix a display problem when a newline is printed at the right edge of the upper window.
+  * Provide better diagnostics when a save file cannot be loaded.
+
 ==February 18, 2011==
 ===Bocfel 0.5.1===
   * Bocfel now reports itself as a Standard 1.1-compliant interpreter.
