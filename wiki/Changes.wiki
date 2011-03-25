@@ -1,6 +1,13 @@
 #summary Summary of changes to Bocfel.
 #labels Featured
 
+==March 25, 2011==
+===Bocfel 0.5.4===
+  * Fix a rather obscure bug triggered when @restart is called inside an interrupt.
+  * Improved resilience in the face of utterly broken story files.
+  * Minor improvements to the syntax for cheats.
+  * Improved handling of the configuration file on Windows.
+
 ==March 9, 2011==
 ===Bocfel 0.5.3===
   * The initial random seed can now be read from a device such as /dev/random.
