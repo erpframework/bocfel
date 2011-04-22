@@ -11,7 +11,7 @@
 ==March 9, 2011==
 ===Bocfel 0.5.3===
   * The initial random seed can now be read from a device such as /dev/random.
-  * Support for Z-machine versions 1 and 2 is now built unconditionally.
+  * Support for Z-Machine versions 1 and 2 is now built unconditionally.
   * Small bugfixes and general cleanup.
 
 ==February 22, 2011==
@@ -23,7 +23,7 @@
 ===Bocfel 0.5.1===
   * Bocfel now reports itself as a Standard 1.1-compliant interpreter.
   * The stack is now properly saved in a @save_undo call.
-  * Bocfel generates error messages on a few rather questionable uses of the Z-machine; some of these instances have been modified to return sensible results instead of aborting.  The praxix and strictz tests are now passed.
+  * Bocfel generates error messages on a few rather questionable uses of the Z-Machine; some of these instances have been modified to return sensible results instead of aborting.  The praxix and strictz tests are now passed.
 
 ==February 15, 2011==
 ===Bocfel 0.5.0===
