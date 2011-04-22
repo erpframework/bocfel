@@ -1,6 +1,11 @@
 #summary Summary of changes to Bocfel.
 #labels Featured
 
+==April 22, 2011==
+===Bocfel 0.5.5===
+  * Preliminary @sound_effect support.
+  * Small bugfixes and general cleanup.
+
 ==March 25, 2011==
 ===Bocfel 0.5.4===
   * Fix a rather obscure bug triggered when @restart is called inside an interrupt.
