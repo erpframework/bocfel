@@ -1,6 +1,11 @@
 #summary Summary of changes to Bocfel.
 #labels Featured
 
+==February 27, 2012==
+===Bocfel 0.6.1===
+  * Bocfel is now dual-licensed under both the GPLv2 and GPLv3.
+  * Small bugfixes and general cleanup.
+
 ==June 26, 2011==
 ===Bocfel 0.6.0===
   * The configuration options script_on and script_name have been renamed to record_on and record_name.
