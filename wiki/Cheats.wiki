@@ -1,0 +1,45 @@
+#summary Cheats
+
+= Introduction =
+
+This page gathers cheats for various games that can be employed using Bocfel's cheat system.
+
+*Please note*: These cheats have not been thoroughly tested, or tested much at all.  Use at your own risk.  There is no guarantee that a game will be completable if these cheats are used.
+
+= Games =
+== Cutthroats ==
+=== Hunger ===
+The global variable Gb9 tracks hunger.  It can take the following values:
+ * 0: Not hungry.
+ * 1: A bit hungry.
+ * 2: Pretty hungry.
+ * 3: Very hungry.
+ * 4+: Extremely hungry.
+
+{{{
+cheat = freezew:Gb9:0
+}}}
+=== Thirst ===
+The global variable G07 tracks thirst.  It can take the following values:
+ * 0: Not thirsty.
+ * 1: A little thirsty.
+ * 2: Fairly thirsty.
+ * 3: Very thirsty.
+ * 4+: Utterly parched.
+
+{{{
+cheat = freezew:G07:0
+}}}
+=== Sleepiness ===
+The global variable Gba tracks sleepiness.  It can take the following values:
+ * 0: Half awake.
+ * 1: Wide awake (cannot sleep, even in bed).
+ * 2: Wide awake (but can still sleep in bed).
+ * 3: A bit drowsy.
+ * 4: Fairly tired.
+ * 5: Very sleepy.
+ * 6: Dead on your feet.
+ * 7+: Invalid.
+
+{{{
+cheat = freezew:Gba:1
