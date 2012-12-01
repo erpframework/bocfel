@@ -8,13 +8,14 @@ This page gathers cheats for various games that can be employed using Bocfel's c
 
 = Games =
 == Cutthroats ==
+These cheats are for Cutthroats version 23-840809.
 === Hunger ===
 The global variable Gb9 tracks hunger.  It can take the following values:
  * 0: Not hungry.
  * 1: A bit hungry.
  * 2: Pretty hungry.
  * 3: Very hungry.
- * 4+: Extremely hungry.
+ * 4: Extremely hungry.
 
 {{{
 cheat = freezew:Gb9:0
@@ -25,7 +26,7 @@ The global variable G07 tracks thirst.  It can take the following values:
  * 1: A little thirsty.
  * 2: Fairly thirsty.
  * 3: Very thirsty.
- * 4+: Utterly parched.
+ * 4: Utterly parched.
 
 {{{
 cheat = freezew:G07:0
@@ -39,7 +40,61 @@ The global variable Gba tracks sleepiness.  It can take the following values:
  * 4: Fairly tired.
  * 5: Very sleepy.
  * 6: Dead on your feet.
- * 7+: Invalid.
 
 {{{
 cheat = freezew:Gba:1
+}}}
+== Enchanter ==
+These cheats are for Enchanter version 29-860820.
+=== Hunger ===
+The global variable G40 tracks hunger.  It can take the following values:
+ * 0: Well fed.
+ * 1: A bit hungry.
+ * 2: Becoming quite hungry.
+ * 3: Very hungry.
+ * 4: Fairly starving.
+ * 5: Faint from lack of food.
+
+{{{
+cheat = freezew:G40:0
+}}}
+
+Alternatively, the bread that you find early in the game can be made perpetually available as follows:
+{{{
+cheat = freezew:0xf68:8
+}}}
+=== Thirst ===
+The global variable Ga5 tracks thirst.  It can take the following values:
+ * 0: Well hydrated.
+ * 1: A bit thirsty.
+ * 2: Quite thirsty.
+ * 3: Very thirsty.
+ * 4: Extremely thirsty.
+ * 5: Faint from lack of water.
+
+{{{
+cheat = freezew:Ga5:0
+}}}
+
+Alternatively, the jug of water that you find early in the game can be made perpetually full as follows:
+{{{
+cheat = freezew:0x1c09:4
+}}}
+=== Sleepiness ===
+The global variable G13 tracks sleepiness.  It can take the following values:
+ * 0: Beginning to tire.
+ * 1: Feeling tired.
+ * 2: Worn out.
+ * 3: Wrung out and tired.
+ * 4: Getting more and more tired.
+ * 5: Dead on your feet.
+ * 6: So tired you can barely put one foot in front of another.
+ * 7: Practically asleep.
+ * 8: Moving only on your last reserves of strength.
+ * 9: Barely able to move your arms.
+ * 10: Unable to keep your eyes open for more than a few moments at a time.
+ * 65535: Wide awake.
+
+{{{
+cheat = freezew:G13:65535
+}}}
