@@ -103,3 +103,36 @@ cheat = freezew:G13:65535
 Enchanter periodically reports how hungry and thirsty you are.  If you set the global variables indicating that you are fully sated, these periodic status reports will be gibberish (e.g. "cmhgfh   iseems gdon’t glk jmqcf" instead of "Your mouth is getting rather dry.").  This is because the "print status" messages assume that the value will never be 0, and appears to be harmless.
 
 Similarly, if sleepiness is set to 65535, the message "You are faint from lack of water and the spells you’ve memorized are becoming confused." will periodically appear.  This is, as above, the game not expecting the value 65535, and should be harmless.
+== Planetfall ==
+These cheats are for Planetfall version 37-851003.
+=== Hunger and thirst ===
+The global variable Gbc tracks hunger and thirst.  It can take the following values:
+ * 0: Well-fed.
+ * 1, 2: Fairly thirsty and hungry.
+ * 3, 4: Noticeably thirsty and hungry.
+ * 5: Awesomely phenomenally thirsty and hungry.
+
+{{{
+cheat = freezew:Gbc:0
+}}}
+=== Sleepiness ===
+The global variable Gbe tracks sleepiness.  It can take the following values:
+ * 0: Well-rested.
+ * 1: Sort of tired.
+ * 2: Quite tired.
+ * 3: Phenomenally tired.
+
+{{{
+cheat = freezew:Gbe:0
+}}}
+=== Health ===
+The global variable Gba tracks health.  It can take the following values:
+ * 0: Perfect health.
+ * 1, 2, 3: A bit sick and feverish.
+ * 4, 5: Somewhat sick and feverish.
+ * 6, 7: Very sick and feverish.
+ * 8: Severely sick and feverish.
+
+{{{
+cheat = freezew:Gba:0
+}}}
