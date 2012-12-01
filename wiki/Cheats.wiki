@@ -98,3 +98,8 @@ The global variable G13 tracks sleepiness.  It can take the following values:
 {{{
 cheat = freezew:G13:65535
 }}}
+
+=== Notes ===
+Enchanter periodically reports how hungry and thirsty you are.  If you set the global variables indicating that you are fully sated, these periodic status reports will be gibberish (e.g. "cmhgfh   iseems gdon’t glk jmqcf" instead of "Your mouth is getting rather dry.").  This is because the "print status" messages assume that the value will never be 0, and appears to be harmless.
+
+Similarly, if sleepiness is set to 65535, the message "You are faint from lack of water and the spells you’ve memorized are becoming confused." will periodically appear.  This is, as above, the game not expecting the value 65535, and should be harmless.
