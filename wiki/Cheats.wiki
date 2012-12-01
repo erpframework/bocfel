@@ -136,3 +136,10 @@ The global variable Gba tracks health.  It can take the following values:
 {{{
 cheat = freezew:Gba:0
 }}}
+=== Carrying capacity ===
+The global variable Gda specifies the amount of weight that can be carried, while G80 specifies the number of items.  Because these are treated as signed 16-bit values, 32767 is the maximum for each: larger values will be interpreted as negative numbers.
+
+{{{
+cheat = freezew:Gda:32000
+cheat = freezew:G80:32000
+}}}
