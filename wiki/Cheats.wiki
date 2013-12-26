@@ -2,7 +2,7 @@
 
 = Introduction =
 
-This page gathers cheats for various games that can be employed using Bocfel's cheat system.
+This page gathers cheats for various games that can be employed using Bocfel's cheat system.  In a few places, the value 65535 is used and might appear to be out of place.  When interpreted as a negative value on a 16-bit system (like the Z-machine), 65535 represents -1.  For cheats, however, only unsigned (non-negative) values are used, so for negative values, they must be "encoded" as positive values.
 
 *Please note*: These cheats have not been thoroughly tested, or tested much at all.  Use at your own risk.  There is no guarantee that a game will be completable if these cheats are used.
 
