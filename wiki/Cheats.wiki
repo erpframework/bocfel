@@ -82,6 +82,7 @@ cheat = freezew:0x1c09:4
 }}}
 === Sleepiness ===
 The global variable G13 tracks sleepiness.  It can take the following values:
+ * 65535: Wide awake.
  * 0: Beginning to tire.
  * 1: Feeling tired.
  * 2: Worn out.
@@ -93,7 +94,6 @@ The global variable G13 tracks sleepiness.  It can take the following values:
  * 8: Moving only on your last reserves of strength.
  * 9: Barely able to move your arms.
  * 10: Unable to keep your eyes open for more than a few moments at a time.
- * 65535: Wide awake.
 
 {{{
 cheat = freezew:G13:65535
@@ -103,6 +103,27 @@ cheat = freezew:G13:65535
 Enchanter periodically reports how hungry and thirsty you are.  If you set the global variables indicating that you are fully sated, these periodic status reports will be gibberish (e.g. "cmhgfh   iseems gdon’t glk jmqcf" instead of "Your mouth is getting rather dry.").  This is because the "print status" messages assume that the value will never be 0, and appears to be harmless.
 
 Similarly, if sleepiness is set to 65535, the message "You are faint from lack of water and the spells you’ve memorized are becoming confused." will periodically appear.  This is, as above, the game not expecting the value 65535, and should be harmless.
+== Spellbreaker ==
+This cheat is for Spellbreaker version 87-860904.
+=== Sleepiness ===
+The global variable G0f tracks sleepiness.  It can take the following values:
+ * 65535: Wide awake.
+ * 0: Beginning to tire.
+ * 1: Feeling tired.
+ * 2: Getting more and more tired.
+ * 3: Worn out.
+ * 4: Dead tired.
+ * 5: So tired you can barely concentrate.
+ * 6: Moving on your last reserves of strength.
+ * 7: Practically asleep.
+ * 8: Barely able to keep your eyes open.
+ * 9: About to keel over from exhaustion.
+
+{{{
+cheat = freezew:G0f:0
+}}}
+=== Notes ===
+As with Enchanter, Spellbreaker will periodically give status updates which are nonsensical if sleepiness is set to 65535 (e.g. "You are large bird circling the tower and eyeing you suspiciously..").  These appear to be harmless.
 == Planetfall ==
 These cheats are for Planetfall version 37-851003.
 === Hunger and thirst ===
