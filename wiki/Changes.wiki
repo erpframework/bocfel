@@ -3,7 +3,7 @@
 
 ==June 13, 2014==
 ===Bocfel 0.6.3.1===
-  *Fix a potential use of uninitialized variable.
+  * Fix a potential use of uninitialized variable.
 
 ==Febrary 2, 2014==
 ===Bocfel 0.6.3===
