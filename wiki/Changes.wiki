@@ -1,6 +1,10 @@
 #summary Summary of changes to Bocfel.
 #labels Featured
 
+==December 16, 2014==
+===Bocfel 0.6.3.2===
+  * Fix detection of Sherlock version 26-880127.
+
 ==June 13, 2014==
 ===Bocfel 0.6.3.1===
   * Fix a potential use of uninitialized variable.
